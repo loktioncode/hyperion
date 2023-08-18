@@ -58,7 +58,7 @@ function Banner() {
     <Wrapper>
       <div className="banner-inner">
         <h1>
-        Become a developer the right way
+          Observe <span>| Reflect |</span> Make
         </h1>
         <Paragraph textColor={'#fff'}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

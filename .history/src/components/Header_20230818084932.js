@@ -8,9 +8,9 @@ import {FiArrowUpRight} from 'react-icons/fi';
 
 const Nav = styled.nav`
   padding: 0 20px;
-  min-height: 5vh;
+  min-height: 9vh;
   z-index:10;
-  background: #103452;
+  background: #212529;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -61,12 +61,12 @@ const Nav = styled.nav`
             opacity:0.3;
             transition:all 0.7s ease;
             display:block;
-            color:#fff;
+            color:#000000;
             @media(min-width:992px){
-                font-size:16px;
+                font-size:20px;
             }
             @media(min-width:1200px){
-                font-size:20px;
+                font-size:24px;
             }
         }
         .active{

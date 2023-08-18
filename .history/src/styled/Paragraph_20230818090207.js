@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.p`
-  color: ${(props) => props.textColor};
+  color: ${(props) => props.textColor}
   font-size: 15px;
   font-family: ${props => props.theme.fam.medium};
   font-weight: 500;

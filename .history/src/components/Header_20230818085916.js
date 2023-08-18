@@ -61,7 +61,7 @@ const Nav = styled.nav`
             opacity:0.3;
             transition:all 0.7s ease;
             display:block;
-            color:#fff;
+            color:#000000;
             @media(min-width:992px){
                 font-size:16px;
             }

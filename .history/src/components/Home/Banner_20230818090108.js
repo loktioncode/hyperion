@@ -18,7 +18,7 @@ const Wrapper = styled.section`
         }
     }
   h1 {
-    color: #fff;
+    color: #000;
     text-align: center;
     font-size: 50px;
     font-family: ${props => props.theme.fam.bold};
@@ -58,9 +58,9 @@ function Banner() {
     <Wrapper>
       <div className="banner-inner">
         <h1>
-        Become a developer the right way
+          Observe <span>| Reflect |</span> Make
         </h1>
-        <Paragraph textColor={'#fff'}>
+        <Paragraph>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco{" "}
