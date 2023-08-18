@@ -11,7 +11,7 @@ padding:10% 20px;
 position:relative;
 &:before{
   content:"";
-  background:#FDE030;
+  background:${(props) => props.theme.color.blue3};
   height:4vh;
   width:90%;
   position: absolute;
@@ -60,7 +60,7 @@ position:relative;
     }
   }
   img{
-    width:100%;
+    width:40%;
     max-width:350px;
     margin:0 auto;
     display:block;
@@ -152,13 +152,19 @@ position:relative;
       
     }
   }
+  .footerLogo{
+
+  }
 `;
 
 function Footer() {
   return (
     <Wrapper>
       <div className="left">
-        <img src="./images/logoblack.webp" alt="Loktion Logo Black" />
+        <div className="footerLogo">
+       
+        </div>
+   
         <Paragraph>
           Get notified of any promo’s we run on our services, we get too excited
           sometimes and offer promos
