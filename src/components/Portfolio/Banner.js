@@ -44,10 +44,7 @@ function Banner() {
       <div className="text">
         <Heading>Portfolio</Heading>
         <Paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat.
+        some of the stuff i have built, in my spare time
         </Paragraph>
       </div>
       <img src={pic1} alt='Loktion Code Mobile Design' />

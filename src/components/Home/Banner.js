@@ -1,6 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 import Paragraph from "../../styled/Paragraph";
+import {FiArrowUpRight, FiPlayCircle} from 'react-icons/fi';
+
+
 
 const Wrapper = styled.section`
     .banner-inner{
@@ -16,6 +19,42 @@ const Wrapper = styled.section`
         @media(min-width:1200px){
             height:85vh;
         }
+    }
+    button {
+      background: transparent;
+      border: none;
+      display: flex;
+      align-items: center;
+      color: #fff;
+      margin-top: 20px;
+      padding: 8px;
+      text-align: center;
+      font-size: 20px;
+      font-family: ${(props) => props.theme.fam.bold};
+      font-weight: 800;
+      text-transform: uppercase;
+      svg {
+        color: ${(props) => props.theme.color.yellow};
+      }
+    }
+    button.play{
+      background:  ${(props) => props.theme.color.yellow};
+      border: none;
+      display: flex;
+      align-items: center;
+      border-radius: 5px;
+      margin-top: 20px;
+      padding: 8px;
+      color: #fff;
+      text-align: center;
+      font-size: 20px;
+      font-family: ${(props) => props.theme.fam.bold};
+      font-weight: 800;
+      text-transform: uppercase;
+      svg {
+        color: #fff;
+        padding-left: 5px;
+      }
     }
   h1 {
     color: #fff;
@@ -51,6 +90,10 @@ const Wrapper = styled.section`
 
     }
   }
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
 `;
 
 function Banner() {
@@ -65,6 +108,14 @@ function Banner() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco{" "}
         </Paragraph>
+        <div className="btn">
+        <button >
+          SIGN UP  <FiArrowUpRight />
+        </button>
+        <button className="play">
+          WATCH  <FiPlayCircle />
+        </button>
+        </div>
       </div>
     </Wrapper>
   );

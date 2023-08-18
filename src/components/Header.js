@@ -196,10 +196,10 @@ const Header = () => {
                 <NavLink activeClassName="active" to="/services">Services</NavLink>
             </li>
             <li>
-                <NavLink activeClassName="active" to="/portfolio">Portfolio</NavLink>
+                <NavLink activeClassName="active" to="/portfolio">Elisha Portfolio</NavLink>
             </li>
             <li>
-                <NavLink activeClassName="active" to="/get-a-quote">Get A Quote <FiArrowUpRight /></NavLink>
+                <NavLink activeClassName="active" to="/get-a-quote">Login <FiArrowUpRight /></NavLink>
             </li>
         </Menu>
         <NavIcon onClick={() => toggleNav(!toggle)}>
@@ -220,7 +220,7 @@ const Header = () => {
                 <NavLink activeClassName="active" to="/portfolio">Portfolio</NavLink>
             </li>
             <li onClick={() => toggleNav(false)}>
-                <NavLink activeClassName="active" to="/get-a-quote">Get A Quote <FiArrowUpRight /></NavLink>
+                <NavLink activeClassName="active" to="/get-a-quote">Login <FiArrowUpRight /></NavLink>
             </li>
         </OverlayMenu>
       </Overlay>
